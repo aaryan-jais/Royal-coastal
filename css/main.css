@@ -1,0 +1,843 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+:root{
+    --gold: #C5A77A;
+    --black: #1B1709;
+}
+
+.oxygen-home h2 {
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+}
+
+.oxygen-home h3 {
+font-size: 22px;
+font-weight: 700;
+line-height: 36px;
+}
+
+.oxygen-home h4 {
+font-size: 20px;
+font-weight: 700;
+line-height: 28.6px;
+ }
+
+.oxygen-home h5 {
+    font-size: 16px;
+    color: #015D72;
+}
+#simplia-red-button{display: none !important;}
+
+p {
+font-size: 15px;
+font-weight: 500;
+line-height: 27px;
+
+}
+
+.oxygen-home a {
+    text-decoration: none;
+}
+#simplia-red-button{
+    display: none !important;
+}
+body{
+    font-family: "poppins";
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+	scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .oxygen-home .container {
+        max-width: 1270px;
+    }
+}
+
+
+*, :after, :before {
+    box-sizing: border-box !important;
+}
+
+
+/* Hide scrollbar for Webkit-based browsers */
+::-webkit-scrollbar {
+	display: none;
+}
+
+.oxygen-home .goldcolor{
+    color: var(--gold);
+}
+
+img{
+    max-width: 100%;    
+}
+
+.oxygen-home .main-img {
+    position: relative;
+    z-index: 20;
+    }
+
+/* Menu */
+
+.oxygen-home .navbar-nav li {
+    font-weight: 600    ;
+    font-family: Nunito;
+    text-transform: uppercase;
+    font-size:14px;
+}
+body{
+    font-family: Nunito; 
+}
+.oxygen-home .top-btn{
+    background: #51B7EF;
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: 400;
+    border-radius: 32px;
+    font-size: 14px;
+    text-align: center;
+    font-family: Nunito;
+
+}
+.oxygen-home .inner-call{
+    display:flex;
+}
+.oxygen-home .inner-call img{
+    display:block;
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+.oxygen-home .inner-call span{
+    color:#3F3F3F;
+    font-size:14px;
+}
+.oxygen-home .inner-call a{
+    font-size:14px;
+}
+.oxygen-home .inner-call .calln{
+    padding-right:20px;
+}
+.oxygen-home .top-btn:hover{
+    color: white!important;
+}
+
+.oxygen-home #services #carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    background-color: #34A6B7;
+    border: 1px solid #34A6B7;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+.oxygen-home #services div#carouselExampleIndicators .carousel-control-next, 
+.oxygen-home #services div#carouselExampleIndicators .carousel-control-prev {
+    align-items: flex-end;
+    background: none;
+    border: none;
+    font-size: 44px !important;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #02BCCE;
+    width: 30px;
+    bottom: -35px;
+}
+
+.oxygen-home #services div#carouselExampleIndicators .carousel-item {
+   
+}
+
+.oxygen-home .scroll-gallery .card i.fa-regular.fa-circle-check {
+    color: #0299AD;
+    margin-right: 10px;
+}
+
+.oxygen-home .navbar{
+/*    background: #fff !important;*/
+    padding: 10px 0;
+/*    margin-top: 20px;*/
+/*    box-shadow: 0px 5px 50px rgba(13, 24, 32, 0.05);*/
+/*border-radius: 10px;*/
+}
+
+.oxygen-home .navbar-nav li {
+    font-weight: 500;
+    padding: 10px;
+}
+
+
+/* BANNER */
+.oxygen-home #banner{
+    padding:26px 0 15px;
+}
+.oxygen-home #banner .logo img {
+    width:160px;
+    display:block;
+}
+
+
+.oxygen-home #banner .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.oxygen-home #banner .row .callr{
+text-align: right;
+}
+.oxygen-home #banner .callbtn {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+color:#242021;
+text-align:right;
+}
+.oxygen-home #banner .callbtn img{
+    width:20px;
+}
+
+.oxygen-home .banner-text h1 {
+    font-family: Sofia Sans;
+font-weight: 800;
+font-size: 50px;
+linhe-height:1.6em;
+letter-spacing: 0%;
+text-align: center;
+color:#242021;
+text-transform: uppercase;
+}
+.oxygen-home .banner-text p{
+
+
+font-family: Sofia Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+text-align: center;
+color:#242021;
+}
+.oxygen-home .banner-text{
+    background:#A1C6E1;
+    padding:32px 22px;
+box-shadow: 4px 4px 12px 0px rgba(36, 32, 33, 0.12);
+position:relative;
+top:90px;
+left:0%;
+height:450px;
+z-index:99;
+
+}
+.oxygen-home .bannerhome{
+    padding:0;
+}
+.oxygen-home .bannerhome .container{
+    position: relative;
+}
+.oxygen-home .banner-img {
+    width:933px!important;
+    position:absolute;
+    right:0;
+    z-index:1; 
+}
+.oxygen-home .banner-img img{
+    display:block;
+   
+    position:relative;
+   
+
+}
+.oxygen-home .bannerhome .btnhome{
+    background:#fff;
+    padding:22px 22px;
+    box-shadow: 4px 4px 12px 0px rgba(36, 32, 33, 0.12);
+    width:80%;
+    z-index:99;
+    position:relative;
+    margin:20px auto;
+
+}
+.oxygen-home .bannerhome .btnhome h3{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+text-align: center;
+width:70%;
+margin:10px auto;
+color:#242021;
+
+}
+.oxygen-home .bannerhome .btnhome a{
+    background:#2D767D;
+    padding:12px 16px;
+    text-align:center;
+    font-family: Montserrat;
+font-weight: 600;
+font-size: 16px;
+line-height:1.6em;
+
+color:#fff;
+text-transform: uppercase;
+display:block;
+max-width:460px;
+margin:20px auto 10px;
+
+}
+.oxygen-home .introduction{
+    padding:110px 0;
+}
+.oxygen-home .introduction h2,.oxygen-home  .services h2,.oxygen-home .whychooseus h2,.oxygen-home .works h2{
+font-family: Sofia Sans;
+font-weight: 800;
+font-size: 38px;
+line-height: 1.4em;
+letter-spacing: 0%;
+text-align: center;
+color:#242021;
+text-transform:uppercase;
+padding-bottom:30px;
+
+
+}
+
+.oxygen-home .introduction img{
+width:100%;
+}
+.oxygen-home .introduction p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 28px;
+line-height: 1.4em;
+letter-spacing: 0%;
+color:#242021;
+
+}
+.oxygen-home .img-services{
+    width:100%;
+}
+.oxygen-home .content-services{
+    width:90%;
+    margin:10px auto;
+    background:#fff;
+    padding:23px 28px;
+    margin-top:-110px;
+    z-index:999;
+    position: relative;
+    box-shadow: 4px 4px 12px 0px rgba(36, 32, 33, 0.12);
+    height:440px;
+    position: relative;
+
+}
+.oxygen-home .content-services .img-innercontent{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oxygen-home .content-services .img-innercontent .img-1,.oxygen-home .content-services .img-innercontent .img-2{
+    width:60px;
+
+}
+.oxygen-home .content-services .img-innercontent .img-1 img, .oxygen-home .content-services .img-innercontent .img-2 img{
+    object-fit: contain;
+}
+.oxygen-home .content-services h3{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+color:rgba(36, 32, 33, 1);
+padding-top:30px;
+}
+.oxygen-home .content-services p{
+
+
+font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+color:#242021;
+line-height: 1.4em;
+letter-spacing: 0%;
+padding-top:9px;
+}
+
+.oxygen-home .services .col-md-4{
+    margin:20px 0;
+}
+.oxygen-home .content-services a{
+    background:#2D767D;
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 15px;
+text-transform: uppercase;
+text-align: center;
+padding:12px 24px;
+width:85%;
+display:block;
+color:#fff;
+position: absolute;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+
+
+}
+.oxygen-home .whychooseus {
+    padding:70px 0 0;
+    text-align:center;
+}
+.oxygen-home .whychooseus img{
+    text-align:center;
+    width:50px;
+}
+.oxygen-home .whychooseus .col-md-4{
+    padding:22px 22px;
+    border: 1px solid #2D767D;
+    box-shadow: 4px 4px 12px 0px rgba(36, 32, 33, 0.12);
+    margin:20px auto;
+    width:31%;
+
+}
+.oxygen-home .whychooseus h3{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+text-align: center;
+color:#242021;
+padding:20px 0;
+}
+
+.oxygen-home .about-coastal p{
+    padding-right:20px;
+}
+.oxygen-home .works .col-md-4{
+    margin:15px 0;
+}
+.oxygen-home #footer {
+    border-top:6px solid rgba(45, 118, 125, 1);
+    padding:40px 0;
+    margin-top:70px;
+}
+.oxygen-home .contact{
+    background:url(../img/bg-contact.webp);
+    background-size: cover;
+    width:100%;
+    padding:80px 0;
+    background-position: center;
+    margin-top:80px;
+    position: relative;
+}
+.oxygen-home .contact:before{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(36, 32, 33, 0.52);
+}
+.oxygen-home .contact .container{
+    position: relative;
+    z-index:99;
+}
+.oxygen-home .contact h2{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.3em;
+letter-spacing: 0%;
+color:#fff;
+text-transform: uppercase;
+
+}
+.oxygen-home .contact a{
+    display:block;
+    background-color:rgba(45, 118, 125, 1);
+    max-width:260px;
+    padding:12px 22px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color:#fff;
+    text-align: center;
+    font-size:16px;
+    line-height:1.4em;
+    margin-top:30px;
+    font-weight:600;
+    margin-bottom:30px;
+
+}
+
+.oxygen-home #footer img{
+    width:180px;
+    padding-bottom:30px;
+}
+.oxygen-home #footer p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.3em;
+letter-spacing: 0%;
+color:#242021;
+
+}
+.oxygen-home #footer h3{
+
+
+font-family: Montserrat;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.4em;
+letter-spacing: 0%;
+color:#242021;
+padding-bottom:8px;
+text-transform: uppercase;
+
+}
+.oxygen-home #footer .condetail p{
+    display: flex;
+    justify-content: space-between;
+/*    flex-wrap:wrap;*/
+}
+.oxygen-home .about-coastal{
+    padding:70px 0;
+}
+.oxygen-home #footer .condetail p span:first-child{
+    width:63px;
+}
+.oxygen-home #footer .condetail p span:last-child{
+/*    width:80%;*/
+width:73%;
+}
+.oxygen-home .testimonials h2{
+font-family: Sofia Sans;
+font-weight: 800;
+font-size: 38px;
+line-height: 1.2em;
+letter-spacing: 0%;
+color:#242021;
+padding-bottom:20px;
+text-transform: uppercase;
+
+}
+.oxygen-home .testimonials {
+    padding:140px 0 100px;
+
+}
+.oxygen-home .testimonials .row{
+    align-items: center;
+}
+.oxygen-home .testimonials .col-md-4{
+    position: relative;
+}
+.oxygen-home .testimonials .quote{
+    
+   
+    max-width:180px;
+    text-align:right;
+    display:block;
+    margin-top:-59px;
+    margin-left:61%;
+    }
+.oxygen-home .testimonials .testiinner{
+    position: relative;
+}
+.oxygen-home .testimonials .container-fluid{
+    padding:0;
+    padding-right:0;
+}
+.oxygen-home .testimonials .testiinner:before{
+    content:'';
+    display:block;
+    position:absolute;
+    top:-80px;
+    left:20px;
+    width:85%;
+    background:rgba(45, 118, 125, 1);
+    height:145%;
+    left:50%;
+    transform: translateX(-50%);
+}
+.oxygen-home .testimonials .testiinner .innert{
+    background: #fff;
+    padding:42px 22px;
+    position: relative;
+    margin:20px auto;
+    height:310px;
+    width:92%!important;
+    box-shadow: 4px 4px 12px 0px rgba(36, 32, 33, 0.12);
+
+
+}
+.oxygen-home .testimonials .testiinner h4{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+color:#242021;
+
+}
+.oxygen-home .testimonials .testiinner .innert img{
+    position: absolute;
+    top:30px;
+    right:30px;
+    width:70px;
+}
+.oxygen-home .testimonials .testiinner p{
+
+
+font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+line-height: 1.4em;
+letter-spacing: 0%;
+color:#242021
+}
+.oxygen-home  .customArrow {
+    display: flex;
+}
+.oxygen-home  .customArrow .slick-arrow {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.oxygen-home  .customArrow img{
+    width:35px;
+    padding-right:15px;
+}
+.oxygen-home .customArrow .slick-arrow[aria-disabled="true"] {
+    opacity: 0.28 !important;
+}
+.oxygen-home .works h2{
+    padding-bottom:10px;
+}
+@media (max-width:767px){
+    .oxygen-home .introduction h2,.oxygen-home  .services h2,.oxygen-home .whychooseus h2,.oxygen-home .works h2{
+        font-size:24px;
+}
+.oxygen-home .introduction p {
+    font-size:17px;
+}
+.oxygen-home .content-services{
+    height:auto;
+}
+.oxygen-home .content-services a{
+    position: static;
+    margin-top:30px;
+    transform: translate(0);
+}
+.oxygen-home .whychooseus .col-md-4{
+    width:90%;
+}
+.oxygen-home .contact h2{
+    font-size:24px;
+}
+.oxygen-home .banner-text h1{
+    font-size:30px;
+}
+.oxygen-home .banner-img{
+    position: static;
+    width:100%!important;
+}
+.oxygen-home .bannerhome .btnhome{
+    padding:15px;
+}
+.oxygen-home .bannerhome .btnhome h3{
+    font-size:16px;
+    width:100%;
+}
+.oxygen-home .banner-text{
+    height:auto;
+    top:0;
+    margin-top:40px;
+}
+.oxygen-home .testimonials .testiinner:before{
+    height:100%;
+    top:-20px;
+    display:none;
+}
+.oxygen-home #banner .row{
+    display:flex!important
+}
+.oxygen-home #banner .row .col-md-6{
+    width:45%;
+}
+.oxygen-home #banner .callbtn {
+    font-size:12px;
+}
+.oxygen-home .testimonials .quote {
+    margin-left:0;
+}
+.oxygen-home .testimonials .testiinner .innert{
+    height:auto;
+    width:100%!important;
+}
+}
+@media (min-width:768px) and (max-width:1000px){
+   .oxygen-home .banner-img{
+    position: static;
+    width:100%!important;
+} 
+.oxygen-home .banner-text{
+    height:auto;
+    top:0;
+    margin-top:40px;
+}
+.oxygen-home .introduction p{
+    font-size:17px;
+}
+.oxygen-home .introduction h2, .oxygen-home .services h2, .oxygen-home .whychooseus h2, .oxygen-home .works h2{
+    font-size:32px;
+}
+.oxygen-home .content-services h3{
+    font-size:16px;
+    padding:12px 0;
+    line-height:1.3em;
+}
+.oxygen-home .content-services p {
+    font-size:13px;
+}
+.oxygen-home .content-services{
+    padding:22px 16px;
+    height:390px;
+}
+.oxygen-home .testimonials h2{
+    font-size:24px;
+}
+.oxygen-home .contact h2{
+    font-size:24px;
+}
+.oxygen-home .content-services .img-innercontent .img-1, .oxygen-home .content-services .img-innercontent .img-2{
+    width:40px;
+}
+}
+@media (min-width:1001px) and (max-width:1290px){
+    .oxygen-home .banner-text h1 {
+        font-size:41px;
+}
+.oxygen-home .content-services a{
+    bottom:20px;
+}
+.oxygen-home .testimonials h2{
+    font-size:31px;
+}
+.oxygen-home .testimonials .testiinner .innert{
+
+padding:32px 16px;
+height:320px;   
+}
+}
+
+
+/*thank you css*/
+.oxygen-home .thankyou{
+    width:100%;
+    background:url("../img/thank-you.webp");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:160px 20px;
+    position:relative;
+}
+.oxygen-home .thankyou:before{
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(36, 32, 33, 0.87);
+
+}
+.oxygen-home .thankyou .container{
+    position: relative;
+    z-index:99;
+    text-align:center;
+}
+.oxygen-home .thankyou .container h1{
+
+
+font-family: Poppins;
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2em;
+letter-spacing: 0%;
+color:#fff;
+max-width:180px;
+text-align: left;
+margin:10px auto;
+margin-bottom:60px;
+position:relative;
+}
+.oxygen-home .thankyou .container h1:before{
+    content:'';
+    display:block;
+    position: absolute;
+    top:-40px;
+    width:190px;
+    background:rgba(45, 118, 125, 1);
+
+    height:190px;
+    right:-40%;
+    z-index:-1;
+}
+.oxygen-home .thankyou p{
+
+
+font-family: Poppins;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.4em;
+letter-spacing: 0%;
+text-align: center;
+color:#fff;
+max-width:800px;
+margin:10px auto;
+padding:10px 0;
+}
+
+.oxygen-home .thankyou  a{
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.2em;
+letter-spacing: 0%;
+margin:30px auto;
+color:#fff!important;
+text-transform: uppercase;
+padding:12px 32px;
+background:rgba(45, 118, 125, 1);
+display:inline-block;
+text-align: center;
+max-width:400px;
+
+}
+@media (max-width:767px)
+{
+    /*.oxygen-home .thankyou .container h1:before{
+        width:100px;
+        height:100px;
+    }*/
+    .oxygen-home .thankyou p{
+        width:90%;
+    }
+    .oxygen-home .thankyou a{
+        width:100%;
+        font-size:14px;
+    }
+}

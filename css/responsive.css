@@ -1,0 +1,342 @@
+/* HERO */
+.navbar-toggler{
+    background: var(--gold) url(../img/menu.svg) no-repeat center center;
+}
+@media (max-width:1199px) {
+    .oxygen-home .hero--content h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .oxygen-home .hero--form form {
+        flex-wrap: wrap;
+    }
+
+    .oxygen-home .hero--form form > div{
+        width: calc(50% - 15px);
+        margin-bottom: 0 !important;
+    }
+
+    .oxygen-home .hero--wrap .hero--img img{
+        min-height: 865px;
+    }
+
+    .oxygen-home .navbar-expand-lg .navbar-nav{
+        background: var(--gold);
+        gap: 0;
+        margin-top: 10px;
+        padding: 15px;
+    }
+    .oxygen-home .navbar-expand-lg .navbar-nav .nav-link.active {
+        color: #000;
+    }
+
+}
+
+@media (max-width:992px){
+    .oxygen-home .pado{
+        padding: 0 !important;
+    }
+}
+
+@media (max-width:767px){
+    .oxygen-home .hero--content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .oxygen-home .hero--services {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .oxygen-home .hero--content {
+        align-items: flex-start;
+        margin-top: 160px;
+    }
+    .oxygen-home .hero--wrap .hero--img img{
+        min-height:1100px;
+    }
+
+    .oxygen-home section#faq .container-fluid.ps-0 {
+        padding-left: 25px !important;
+    }
+
+    .oxygen-home .row.faqSec.ps-0 h5 {
+        margin-top: 80px;
+    }
+
+    .oxygen-home #testimonials .prev-btn1, .oxygen-home #testimonials .next-btn1 {
+        margin: 0 10px;
+    }
+
+    .oxygen-home .testiIndicator {
+        position: absolute;
+        bottom: -75px;
+        left: 40%;
+    }
+}
+
+@media (max-width:575px){
+    .oxygen-home .hero--content h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .oxygen-home .hero--form form > div{
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+    .oxygen-home .hero--form form button{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .oxygen-home .counter{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:400px){
+    .oxygen-home .hero--wrap .hero--img img{
+        min-height:1200px;
+    }
+}
+/* HERO */
+
+
+/* WHO WE ARE */
+@media (max-width:1199px) {
+    .oxygen-home .whoarewe--wrap img {
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+@media (max-width:767px) {
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+/* WHO WE ARE */
+
+/* CTA BANNER */
+@media (max-width:1199px) {
+    .oxygen-home .cta-banner--wrap {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width:767px) {
+    .oxygen-home .ctatitle {
+        flex-wrap: wrap;
+    }
+
+    .oxygen-home .ctatitle h3{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:575px) {
+    .oxygen-home .cta-banner--wrap{
+        padding: 30px;
+    }
+}
+
+/* CTA BANNER */
+
+/* SERIVE LIST */
+@media (max-width:992px) {
+    .oxygen-home .ourservices--wrap .service--list .service--content{
+        
+    }
+
+    .oxygen-home .service--list .col-lg-4 {
+        position: relative;
+        margin-bottom: 150px;
+    }
+}
+/* SERIVE LIST */
+
+/* CTA CENTER */
+@media (max-width:992px) {
+    .oxygen-home .cta-full{
+        flex-wrap: wrap;
+    }
+
+    .oxygen-home .cta-full .ctas{
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .oxygen-home .cta-full .ctas{
+        width: 100%;
+    }
+}
+/* CTA CENTER */
+
+/* CTA BANNER */
+@media (max-width:992px) {
+    .ctabtn--wrap h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .ctabtn--wrap{
+        padding: 20px;
+    }
+    .ctabtn--wrap h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media (max-width:575px) {
+    .oxygen-home .btn-main{
+        white-space: nowrap;
+    }
+}
+/* CTA BANNER */
+
+/* RECENT PROJECTS */
+@media (max-width:992px) {
+    .oxygen-home .project--content .project--details{
+        width: auto;
+        max-width: none;
+        position: static;
+    }
+}
+
+@media (max-width:600px) {
+    .oxygen-home .right-triangle{
+        bottom: -40px;
+        right: 0px;
+    }
+    .oxygen-home .left-triangle{
+        left: 0;
+    }
+
+    .oxygen-home .recentproject--wrap .pv3{
+        flex-wrap: wrap;
+    }
+
+    .oxygen-home .recentproject--wrap .pv3 button{
+        width: calc(50% - 15px);
+    }
+}
+
+@media (max-width:360px) {
+    .oxygen-home .recentproject--wrap .pv3 button{
+        width: 100%;
+    }
+}
+/* RECENT PROJECTS */
+
+/* OUR EXPERTISE */
+@media (max-width:767px) {
+    .expertise-wrap .col-md-4{
+        margin-bottom: 30px;
+    }
+}
+/* OUR EXPERTISE */
+
+/* FIANCE */
+@media (max-width:1199px) {
+    .finance--wrap .col-lg-6:nth-child(1){
+        padding-bottom: 100px;
+    }
+    .finance--wrap img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:992px){
+    .finance--wrap .col-lg-6:nth-child(1){
+        order:2
+    }
+    .finance--wrap .col-lg-6:nth-child(2){
+        order:1
+    }
+}
+/* FIANCE */
+
+/* TESTIMONIALS */
+@media (max-width:1199px) {
+    .oxygen-home .testimonial--wrap{
+        background-size: cover;
+    }
+
+    .oxygen-home .testimonial-content{
+        margin-top: 30px;
+    }
+
+    .oxygen-home .test-cont{
+        margin-bottom: 15px;    
+    }
+}
+/* TESTIMONIALS */
+
+/* CONTACT FORM */
+@media (max-width:992px) {
+    .oxygen-home .cForm--wrap .cForm-cotnent h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .oxygen-home .cForm--wrap{
+        background-size: cover;
+    }
+    .oxygen-home .cForm-cotnent{
+        bottom: 0;
+        margin-bottom: 30px;
+        max-width: none;
+    }
+}
+/* CONTACT FORM */
+
+
+/* FOOTER */
+@media (max-width:1199px) {
+    footer .row .col-lg-12 {
+        text-align: center;
+    }
+
+    .oxygen-home .footertext{
+        justify-content: center;
+    }
+
+    footer .row .col-lg-12:nth-child(1){
+        order: 2;
+        margin-top: 30px;
+    }
+    footer .row .col-lg-12:nth-child(2){
+        order: 1;
+    }
+    .oxygen-home .footer--logo {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .oxygen-home .footertext{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .oxygen-home .footertext div{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+}
+/* FOOTER */
